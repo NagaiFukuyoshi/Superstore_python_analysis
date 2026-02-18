@@ -4,7 +4,7 @@
 Este repositorio contiene mi solución a un ejercicio técnico utilizando datos reales de ventas (Superstore dataset). El objetivo es demostrar mis habilidades en limpieza, transformación y análisis de datos con Python, así como mi capacidad para justificar decisiones técnicas y comunicar hallazgos de negocio.
 
 ## 🎯 Objetivo del Ejercicio
-Evaluar tu capacidad para:
+El objetivo de este ejercicio es demostrar la capacidad para:
 
 - Entender datos sucios
 - Tomar decisiones razonables
@@ -59,18 +59,18 @@ Superstore_python_analysis/
 
 | Problema | Decisión | Justificación |
 |----------|----------|---------------|
-| Valores nulos en `postal_code` | No se modificó ni se rellenó los nulos | la cantidad era muy insignificante, ademas no se necesitaba para futuros analisis |
+| Valores nulos en `postal_code` | No se modificó ni se rellenó los nulos | la cantidad era muy insignificante, además no se necesitaba para futuros analisis |
 | Fechas en formato texto | Convertir a datetime con `dayfirst=True` | Habilitar análisis temporal con formato estándar |
-| Nombres con diferentes formatos | Converir los titulos de las columnas en minusculas y reemplazar " " y "-" por "_" | Evita problemas con los nombres de las columnas en futuros analisis |
-| Nombres largos en gráficos | Función con `textwrap` | Mejorar legibilidad de visualizacione |
+| Nombres con diferentes formatos | Convertir los titulos de las columnas en minusculas y reemplazar " " y "-" por "_" | Evitar problemas con los nombres de las columnas en futuros analisis |
+| Nombres largos en gráficos | Función con `textwrap` | Mejorar legibilidad de visualizaciones |
 
 ## 📊 Principales Hallazgos
 
 ### 1. Ventas por categoria 
 Las 3 categorías están muy equilibradas:
-- **Technology:**   $827,456 USD
-- **Furniture:**    $728,659 USD
-- **Office Supplies:**    $705,422 USD
+- **Technology:**   827.456 USD
+- **Furniture:**    728.659 USD
+- **Office Supplies:**    705.422 USD
 
 Diferencia de apenas 12 puntos porcentuales entre la primera y la tercera
 
@@ -96,7 +96,7 @@ Diferencia de apenas 12 puntos porcentuales entre la primera y la tercera
 
 - La región **West** casi duplica en ventas a la de menor rendimiento (**South**), adicionalmente las regiones de **West** y **East** aportaron mas del 60% del total de los ingresos en los ultimos 4 años (2015 - 2018)
 
-### 4. evolucion anual (2015 - 2018)
+### 4. Evolucion anual (2015 - 2018)
 - **2016** tuvo una leve caída del -4.26% vs 2015
 - **2017** se recupera fuertemente: +30.64%
 - **2018** continúa el crecimiento: +20.30%
@@ -132,7 +132,7 @@ Diferencia de apenas 12 puntos porcentuales entre la primera y la tercera
 1. **Clonar el repositorio**
    ```bash
    git clone https://github.com/NagaiFukuyoshi/Superstore_python_analysis.git
-   cd retailnova-proyecto-analisis
+   cd Superstore_python_analysis
    
 ### Instalar dependencias
 
@@ -142,11 +142,11 @@ Ejecutar Jupyter Notebook
 
 - bash
 jupyter notebook
-Abrir y ejecutar el archivo notebooks/Practica_1.ipynb
+Abrir y ejecutar el archivo notebooks/Superstore_python_analysis.ipynb
 
 ### 💡 Decisiones Clave
 
-- Todas las decisiones de limpieza y transformación están documentadas en detalle en docs/justificaciones.md. Las más importantes:
+- Todas las decisiones de limpieza y transformación están documentadas en detalle en docs/Superstore_python_justificacion.md. Las más importantes:
 
 - Manejo de nulos en postal_code: Se decidió no modificar ni reemplazar los nulos.
 
