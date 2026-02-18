@@ -137,10 +137,12 @@ Diferencia de apenas 12 puntos porcentuales entre la primera y la tercera
 ### Instalar dependencias
 
 - bash
+  
 pip install pandas numpy matplotlib seaborn jupyter
 Ejecutar Jupyter Notebook
 
 - bash
+  
 jupyter notebook
 Abrir y ejecutar el archivo notebooks/Superstore_python_analysis.ipynb
 
