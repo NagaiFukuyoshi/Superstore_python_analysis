@@ -59,9 +59,9 @@ Superstore_python_analysis/
 
 | Problema | Decisión | Justificación |
 |----------|----------|---------------|
-| Valores nulos en `postal_code` | No se modificó ni se rellenó los nulos | la cantidad era muy insignificante, además no se necesitaba para futuros analisis |
+| Valores nulos en `postal_code` | No se modificó ni se rellenó los nulos | la cantidad era muy insignificante, además no se necesitaba para futuros análisis |
 | Fechas en formato texto | Convertir a datetime con `dayfirst=True` | Habilitar análisis temporal con formato estándar |
-| Nombres con diferentes formatos | Convertir los titulos de las columnas en minusculas y reemplazar " " y "-" por "_" | Evitar problemas con los nombres de las columnas en futuros analisis |
+| Nombres con diferentes formatos | Convertir los titulos de las columnas en minusculas y reemplazar " " y "-" por "_" | Evitar problemas con los nombres de las columnas en futuros análisis |
 | Nombres largos en gráficos | Función con `textwrap` | Mejorar legibilidad de visualizaciones |
 
 ## 📊 Principales Hallazgos
@@ -103,7 +103,7 @@ Diferencia de apenas 12 puntos porcentuales entre la primera y la tercera
 - Crecimiento acumulado 2015-2018: +50%
 
 ### 5. Mejor mes y año
-- el **2018** fuen sin dudas el mejor año, acumulando ingresos por 722.456 USD, asi mismo el mejor mes no solo del 2018, si no tambien de los ultimos 4 años (2015 - 2018) fue **Noviembre** con ingresos por 117,938 USD, ayudando en gran medida al gran crecimiento en ventas del años 2018.
+- el **2018** fue sin dudas el mejor año, acumulando ingresos por 722.456 USD, asi mismo el mejor mes no solo del 2018, si no tambien de los ultimos 4 años (2015 - 2018) fue **Noviembre** con ingresos por 117,938 USD, ayudando en gran medida al gran crecimiento en ventas del años 2018.
 
 ### 6. Producto estrella
 - **Canon imageCLASS 2200 Advanced Copier** es el producto más vendido del período **2015-2018**, con $61,599 USD en ingresos (2.72% del total).
@@ -154,9 +154,9 @@ Abrir y ejecutar el archivo notebooks/Superstore_python_analysis.ipynb
 
 - Datos faltantes en categorías: Imputación con moda para mantener consistencia
 
-- Manejo de nombres con diferentes formatos: Converir los titulos de las columnas en minuscula y reemplazar los espacios (" ") y guines medios ("-") por guines bajos ("_") para evitar problemas con los nombres de las columnas en futuros analisis
+- Manejo de nombres con diferentes formatos: Converir los titulos de las columnas en minuscula y reemplazar los espacios (" ") y guiones medios ("-") por guiones bajos ("_") para evitar problemas con los nombres de las columnas en futuros analisis
 
-- Manejo de nombres largos en gráficos: Se usó una función con `textwrap` para mejorar legibilidad de visualizacione
+- Manejo de nombres largos en gráficos: Se usó una función con `textwrap` para mejorar legibilidad de visualizaciones
 
 ### 📬 Contacto
 
