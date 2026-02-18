@@ -71,6 +71,7 @@ Las 3 categorías están muy equilibradas:
 - **Technology:**   $827,456 USD
 - **Furniture:**    $728,659 USD
 - **Office Supplies:**    $705,422 USD
+
 Diferencia de apenas 12 puntos porcentuales entre la primera y la tercera
 
 ### 2. Top 10 productos
@@ -93,7 +94,7 @@ Diferencia de apenas 12 puntos porcentuales entre la primera y la tercera
 - **Central**     492646.9132 USD - 21.8%
 - **South**       389151.4590 USD - 17.2%
 
--La región **West** casi duplica en ventas a la de menor rendimiento (**South**), adicionalmente las regiones de **West** y **East** aportaron mas del 60% del total de los ingresos en los ultimos 4 años (2015 - 2018)
+- La región **West** casi duplica en ventas a la de menor rendimiento (**South**), adicionalmente las regiones de **West** y **East** aportaron mas del 60% del total de los ingresos en los ultimos 4 años (2015 - 2018)
 
 ### 4. evolucion anual (2015 - 2018)
 - **2016** tuvo una leve caída del -4.26% vs 2015
